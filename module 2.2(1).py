@@ -1,0 +1,9 @@
+first = 8
+second = 8
+third = 8
+if first == second == third:
+    print(3)
+elif first == second or first == third or second == third:
+    print(2)
+else:
+    print(0)
